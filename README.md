@@ -1,9 +1,9 @@
-##Rotate EIP
+## Rotate EIP
 
 A Lambda function for rotating EIP of EC2 instance and 
 update public DNS to Route 53 to a specified DNS name.
 
-####Permissions
+#### Permissions
 ```json
 {
     "Version": "2012-10-17",
@@ -32,7 +32,7 @@ update public DNS to Route 53 to a specified DNS name.
 }
 ```
 
-####Lambda Environment variables
+#### Lambda Environment variables
 * INSTANCE_ID
 * HOSTED_ZONE_ID
 * DNS_NAME
